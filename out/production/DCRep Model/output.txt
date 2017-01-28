@@ -1,0 +1,48 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin/java -Didea.launcher.port=7532 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/lib/tools.jar:/Users/kalirajkalimuthu/Documents/Documents/Workspace/DCRep Model/out/production/DCRep Model:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMain DCRepModel
+Total Nodes in the System : 15
+---------------------------- Generating the Nodes for the distributed replica system ------------------------------------
+Node 0	Node 1	Node 2	Node 3	Node 4	Node 5	Node 6	Node 7	Node 8	Node 9	Node 10	Node 11	Node 12	Node 13	Node 14
+------------------------- ****************************** -------------------------------
+------------------------ Running Conventional Algorithm--------------------------------
+------------------------- ****************************** --------------------------------
+ File Size : 50 KB   Update Latency:39.26 ms
+ File Size : 200 KB   Update Latency:120.520004 ms
+ File Size : 350 KB   Update Latency:243.78001 ms
+ File Size : 500 KB   Update Latency:409.04 ms
+ File Size : 650 KB   Update Latency:616.3 ms
+ File Size : 800 KB   Update Latency:865.56 ms
+ File Size : 950 KB   Update Latency:1156.8202 ms
+ File Size : 1100 KB   Update Latency:1490.0803 ms
+ File Size : 1350 KB   Update Latency:1893.3405 ms
+ File Size : 1500 KB   Update Latency:2338.6003 ms
+------------------------ Completed Conventional Algorithm --------------------------------
+------------------------- ****************************** --------------------------------
+---------------------------- Running DCRep Algorithm ------------------------------------
+------------------------- ****************************** --------------------------------
+Maximum Cluster Size = 5
+-------------------------------------------
+Total Number of Clusters formed : 3
+-------------------------------------------
+Primary Cluster :0
+Primary Master: Node 0
+Node 1 Node 2 Node 3 Node 4
+Secondary Cluster :1
+Virtual Master: Node 5
+Node 6 Node 7 Node 8 Node 9
+Secondary Cluster :2
+Virtual Master: Node 10
+Node 11 Node 12 Node 13 Node 14
+---------------------------------------------
+ File Size : 50 KB   Update Latency:16.75 ms
+ File Size : 200 KB   Update Latency:51.5 ms
+ File Size : 350 KB   Update Latency:104.24999 ms
+ File Size : 500 KB   Update Latency:175.0 ms
+ File Size : 650 KB   Update Latency:263.75 ms
+ File Size : 800 KB   Update Latency:370.5 ms
+ File Size : 950 KB   Update Latency:495.25 ms
+ File Size : 1100 KB   Update Latency:638.00006 ms
+ File Size : 1350 KB   Update Latency:810.7501 ms
+ File Size : 1500 KB   Update Latency:1001.5002 ms
+------------------------- Completed DCRep Algorithm --------------------------------
+
+Process finished with exit code 0
